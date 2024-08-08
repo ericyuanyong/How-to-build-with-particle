@@ -1,0 +1,11 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "files.associations": {
+        "*.ino": "cpp"
+    },
+    "particle.firmwareVersion": "5.8.0",
+    "particle.targetPlatform": "msom",
+    "particle.targetDevice": "0a10aced202194944a04b1a0",
+    "C_Cpp.errorSquiggles": "disabled"
+}

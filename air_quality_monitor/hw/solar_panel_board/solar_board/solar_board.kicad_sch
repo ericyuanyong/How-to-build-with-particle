@@ -1,0 +1,85 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4fc55218-bf00-4e65-b96f-e6f725668fad)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 120.65 57.15) (size 77.47 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2c897d8d-c9a0-4b3a-8b2c-ad182874e522)
+    (property "Sheetname" "power management" (at 120.65 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power management.kicad_sch" (at 120.65 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "solar_board"
+        (path "/4fc55218-bf00-4e65-b96f-e6f725668fad" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 52.07 43.18) (size 44.45 73.66) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b9df6ecb-0b80-42df-83ee-769ecb777f40)
+    (property "Sheetname" "mcu" (at 52.07 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 52.07 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 52.07 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "solar_board"
+        (path "/4fc55218-bf00-4e65-b96f-e6f725668fad" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 223.52 73.66) (size 36.83 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e9b7b50e-163d-4e0c-8486-0c7408fdd1c8)
+    (property "Sheetname" "sensor" (at 223.52 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensor.kicad_sch" (at 223.52 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "solar_board"
+        (path "/4fc55218-bf00-4e65-b96f-e6f725668fad" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 123.19 121.92) (size 82.55 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid edfb9ba3-5400-411d-8769-35459828ad34)
+    (property "Sheetname" "interface" (at 123.19 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "interface.kicad_sch" (at 123.19 159.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "solar_board"
+        (path "/4fc55218-bf00-4e65-b96f-e6f725668fad" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

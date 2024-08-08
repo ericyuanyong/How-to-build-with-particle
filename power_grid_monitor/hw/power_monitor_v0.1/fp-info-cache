@@ -1,0 +1,456 @@
+110448537398952
+Connector_TE-Connectivity
+TE_1-826576-3_1x13_P3.96mm_Vertical
+TE, 1-826576-3, 13 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+13
+13
+Connector_TE-Connectivity
+TE_1-826576-5_1x15_P3.96mm_Vertical
+TE, 1-826576-5, 15 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+15
+15
+Connector_TE-Connectivity
+TE_1-826576-6_1x16_P3.96mm_Vertical
+TE, 1-826576-6, 16 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+16
+16
+Connector_TE-Connectivity
+TE_1-826576-7_1x17_P3.96mm_Vertical
+TE, 1-826576-7, 17 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+17
+17
+Connector_TE-Connectivity
+TE_1-826576-8_1x18_P3.96mm_Vertical
+TE, 1-826576-8, 18 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+18
+18
+Connector_TE-Connectivity
+TE_2-826576-0_1x20_P3.96mm_Vertical
+TE, 2-826576-0, 20 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+20
+20
+Connector_TE-Connectivity
+TE_3-826576-6_1x36_P3.96mm_Vertical
+TE, 3-826576-6, 36 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+36
+36
+Connector_TE-Connectivity
+TE_440054-2_1x02_P2.00mm_Vertical
+TE Connectivity, HDI, Wire-to-Board, Fully Shrouded, Vertical Header: https://www.te.com/usa-en/product-440054-2.datasheet.pdf
+connector header hdr horizontal vertical shrouded fully-shrounded 440054-2 2-440054-2 4-440054-2 6-440054-2 2-440054-6 4-440054-6 6-440054-6
+0
+2
+2
+Connector_TE-Connectivity
+TE_440055-2_1x02_P2.00mm_Horizontal
+TE Connectivity, HDI, Wire-to-Board, Fully Shrouded, Header: https://www.te.com/usa-en/product-440055-2.datasheet.pdf
+connector header hdr horizontal right-angle shrouded fully-shrounded 440055-2 2-440055-2 4-440055-2 6-440055-2 8-440055-2
+0
+2
+2
+Connector_TE-Connectivity
+TE_826576-2_1x02_P3.96mm_Vertical
+TE, 826576-2, 2 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+2
+2
+Connector_TE-Connectivity
+TE_826576-3_1x03_P3.96mm_Vertical
+TE, 826576-3, 3 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+3
+3
+Connector_TE-Connectivity
+TE_826576-5_1x05_P3.96mm_Vertical
+TE, 826576-5, 5 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+5
+5
+Connector_TE-Connectivity
+TE_826576-6_1x06_P3.96mm_Vertical
+TE, 826576-6, 6 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+6
+6
+Connector_TE-Connectivity
+TE_826576-7_1x07_P3.96mm_Vertical
+TE, 826576-7, 7 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+7
+7
+Connector_TE-Connectivity
+TE_826576-8_1x08_P3.96mm_Vertical
+TE, 826576-8, 8 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+8
+8
+Connector_TE-Connectivity
+TE_826576-9_1x09_P3.96mm_Vertical
+TE, 826576-9, 9 Pins (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826576&DocType=Customer+Drawing&DocLang=English), generated with kicad-footprint-generator
+connector TE 826576 vertical
+0
+9
+9
+Connector_TE-Connectivity
+TE_2834006-1_1x01_P4.0mm_Horizontal
+TE Connectivity Buchanan WireMate connector, Poke-In series, 1-way, 4.0mm pitch, AWG18-22 (0.3255-0.823mm2), https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2834006%7FB6%7Fpdf%7FEnglish%7FENG_CD_2834006_B6.pdf%7F2834006-1
+wire connector
+0
+2
+1
+Connector_TE-Connectivity
+TE_2834006-2_1x02_P4.0mm_Horizontal
+TE Connectivity Buchanan WireMate connector, Poke-In series, 2-way, 4.0mm pitch, AWG18-22 (0.3255-0.823mm2), https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2834006%7FB6%7Fpdf%7FEnglish%7FENG_CD_2834006_B6.pdf%7F2834006-1
+wire connector
+0
+4
+2
+Connector_TE-Connectivity
+TE_2834006-3_1x03_P4.0mm_Horizontal
+TE Connectivity Buchanan WireMate connector, Poke-In series, 3-way, 4.0mm pitch, AWG18-22 (0.3255-0.823mm2), https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2834006%7FB6%7Fpdf%7FEnglish%7FENG_CD_2834006_B6.pdf%7F2834006-1
+wire connector
+0
+6
+3
+Connector_TE-Connectivity
+TE_2834006-4_1x04_P4.0mm_Horizontal
+TE Connectivity Buchanan WireMate connector, Poke-In series, 4-way, 4.0mm pitch, AWG18-22 (0.3255-0.823mm2), https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2834006%7FB6%7Fpdf%7FEnglish%7FENG_CD_2834006_B6.pdf%7F2834006-1
+wire connector
+0
+8
+4
+Connector_TE-Connectivity
+TE_2834006-5_1x05_P4.0mm_Horizontal
+TE Connectivity Buchanan WireMate connector, Poke-In series, 5-way, 4.0mm pitch, AWG18-22 (0.3255-0.823mm2), https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2834006%7FB6%7Fpdf%7FEnglish%7FENG_CD_2834006_B6.pdf%7F2834006-1
+wire connector
+0
+10
+5
+Connector_TE-Connectivity
+TE_5767171-1_2x19_P0.635mm_Vertical
+PCB Mount Receptacle, Vertical, Board-to-Board, 38 Position, 24.003mm / .64mm [.945in] Centerline, Header Only, Palladium Nickel (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5767171%7FB2%7Fpdf%7FEnglish%7FENG_CD_5767171_B2.pdf%7F5767171-1#page=2)
+mictor38 receptacle board-to-board
+0
+43
+39
+Connector_TE-Connectivity
+TE_AMPSEAL_1-776087-x_3Rows_23_P0.4mm_Horizontal
+Connector
+TE 776087
+0
+23
+23
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770182-x_3x03_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770182-x, 3 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+9
+9
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770186-x_3x04_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770186-x, 4 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+12
+12
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770190-x_3x05_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770190-x, 5 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+15
+15
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770621-x_2x06_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770621-x, 6 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+12
+12
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770858-x_2x05_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770858-x, 5 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+10
+10
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770866-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+2
+2
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770870-x_1x03_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770870-x, 3 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+3
+3
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770874-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+4
+4
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770875-x, 3 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+6
+6
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770966-x_1x02_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770966-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+2
+2
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770967-x_1x03_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770967-x, 3 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+3
+3
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770968-x_2x02_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770968-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+4
+4
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770969-x_2x03_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770969-x, 3 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+6
+6
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770970-x_2x04_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770970-x, 4 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+8
+8
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770971-x_2x05_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770971-x, 5 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+10
+10
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770972-x_2x06_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770972-x, 6 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+12
+12
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770973-x_2x07_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770973-x, 7 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+14
+14
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-770974-x_2x08_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770974-x, 8 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+16
+16
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794067-x_2x07_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794067-x, 7 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+14
+14
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794068-x_2x08_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794068-x, 8 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+16
+16
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794069-x_2x09_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794069-x, 9 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+18
+18
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794070-x_2x10_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794070-x, 10 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+20
+20
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794071-x_2x11_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794071-x, 11 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+22
+22
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794072-x_2x12_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794072-x, 12 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+24
+24
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794073-x_2x04_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794073-x, 4 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+8
+8
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794105-x_2x09_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794105-x, 9 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+18
+18
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794106-x_2x10_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794106-x, 10 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+20
+20
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794107-x_2x11_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794107-x, 11 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+22
+22
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794108-x_2x12_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794108-x, 12 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+24
+24
+Connector_TE-Connectivity
+TE_MATE-N-LOK_1-794374-x_1x01_P4.14mm_Horizontal
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-794374-x, 1 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK top entry
+0
+1
+1
+Connector_TE-Connectivity
+TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F350211%7FU5%7Fpdf%7FEnglish%7FENG_CD_350211_U5.pdf%7F350211-1
+connector TE MATE-N-LOK top entry ATA PATA IDE 5.25 inch floppy drive power
+0
+4
+4
+Connector_TE-Connectivity
+TE_Micro-MaTch_1-215079-0_2x05_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 10 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 1-215079-0 8-215079-10
+0
+10
+10
+Connector_TE-Connectivity
+TE_Micro-MaTch_1-215079-2_2x06_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 12 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 1-215079-2 8-215079-12
+0
+12
+12
+Connector_TE-Connectivity
+TE_Micro-MaTch_1-215079-4_2x07_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 14 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 1-215079-4 8-215079-14
+0
+14
+14
+Connector_TE-Connectivity
+TE_Micro-MaTch_1-215079-6_2x08_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 16 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 1-215079-6 8-215079-16
+0
+16
+16
+Connector_TE-Connectivity
+TE_Micro-MaTch_1-215079-8_2x09_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 18 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 1-215079-8 8-215079-18
+0
+18
+18
+Connector_TE-Connectivity
+TE_Micro-MaTch_2-215079-0_2x10_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 20 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 2-215079-0 9-215079-20
+0
+20
+20
+Connector_TE-Connectivity
+TE_Micro-MaTch_215079-4_2x02_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 4 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 215079-4 7-215079-4
+0
+4
+4
+Connector_TE-Connectivity
+TE_Micro-MaTch_215079-6_2x03_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 6 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 215079-6 7-215079-6
+0
+6
+6
+Connector_TE-Connectivity
+TE_Micro-MaTch_215079-8_2x04_P1.27mm_Vertical
+TE-Connectivity Micro-MaTch female-on-board top-entry thru-hole 8 pin connector, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215079%7FY1%7Fpdf%7FEnglish%7FENG_CD_215079_Y1.pdf%7F215079-4
+connector TE-Connectivity Micro-MaTch Vertical 215079-8 7-215079-8
+0
+8
+8
+Connector_TE-Connectivity
+TE_T4041037031-000_M8_03_Socket_Straight
+Shielded M8 socket 3 ways connector panel, straight and rear mount (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT404103010X000%7FA%7Fpdf%7FEnglish%7FENG_CD_T404103010X000_A.pdf%7FT4041037041-000)
+three-pin M8
+0
+5
+4
+Connector_TE-Connectivity
+TE_T4041037041-000_M8_04_Socket_Straight
+Shielded M8 socket 4 ways connector panel, straight and rear mount (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT404103010X000%7FA%7Fpdf%7FEnglish%7FENG_CD_T404103010X000_A.pdf%7FT4041037041-000)
+four-pin M8
+0
+6
+5

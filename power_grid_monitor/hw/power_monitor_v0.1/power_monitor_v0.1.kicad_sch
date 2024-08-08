@@ -1,0 +1,126 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ae7f5ce8-0a63-454d-964e-61f58abd8560)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "kiCadLib:ENCLOSURE" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ENCLOSURE_1_1"
+        (rectangle (start 0 1.27) (end 1.27 0)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "kiCadLib:ENCLOSURE") (at 220.345 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a08a0163-5dc2-4137-a540-aa7e119357e0)
+    (property "Reference" "U8" (at 222.25 80.645 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 220.98 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "kiCadPcbLib:ENCLOSURE" (at 220.98 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 220.98 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "power_monitor_v0.1"
+        (path "/ae7f5ce8-0a63-454d-964e-61f58abd8560"
+          (reference "U8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 127.254 38.1) (size 61.595 46.355) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0be5e7ce-0e12-4c9a-8c0b-d1d2070a8897)
+    (property "Sheetname" "Sensors" (at 127.254 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensors.kicad_sch" (at 127.254 85.0396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_monitor_v0.1"
+        (path "/ae7f5ce8-0a63-454d-964e-61f58abd8560" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 43.815 111.125) (size 54.61 49.53) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5e0e5815-b3dd-4c68-ad8c-26eb2a892c76)
+    (property "Sheetname" "Power" (at 43.815 110.4134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 43.815 161.2396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_monitor_v0.1"
+        (path "/ae7f5ce8-0a63-454d-964e-61f58abd8560" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 125.476 107.696) (size 73.914 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5e5b3ddd-41b6-49c6-ba53-8f20744068ab)
+    (property "Sheetname" "Interface" (at 125.476 106.9844 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Interface.kicad_sch" (at 125.476 156.5406 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_monitor_v0.1"
+        (path "/ae7f5ce8-0a63-454d-964e-61f58abd8560" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 29.845 34.925) (size 57.785 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b9accc67-530c-4568-93e5-61bdd713ced9)
+    (property "Sheetname" "MSOM" (at 29.845 34.2134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MSOM.kicad_sch" (at 29.845 74.8796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_monitor_v0.1"
+        (path "/ae7f5ce8-0a63-454d-964e-61f58abd8560" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
