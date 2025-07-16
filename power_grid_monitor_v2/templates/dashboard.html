@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Energy Monitor Dashboard</title>
-  <!-- Bootstrap 5 CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome for icons -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-  <!-- Custom quick styles -->
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
   <style>
     body {
       background: #f8fafc;
@@ -17,7 +16,7 @@
     .card {
       border: none;
       border-radius: 1rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
     .card-icon {
       font-size: 1.75rem;
@@ -30,6 +29,7 @@
   </style>
 </head>
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
     <div class="container-fluid">
       <a class="navbar-brand fw-semibold" href="#"><i class="fa-solid fa-bolt"></i> Home Energy</a>
@@ -62,9 +62,9 @@
       </div>
       <div class="col-6 col-lg-3">
         <div class="card p-3 text-center">
-          <div class="card-icon text-danger mb-2"><i class="fa-solid fa-fire"></i></div>
-          <h6 class="mb-0">Peak Day (kWh)</h6>
-          <h4 class="fw-bold mb-0" id="peakDay">--</h4>
+          <div class="card-icon text-danger mb-2"><i class="fa-solid fa-chart-pie"></i></div>
+          <h6 class="mb-0">Total Energy (kWh)</h6>
+          <h4 class="fw-bold mb-0" id="totalEnergy">--</h4>
         </div>
       </div>
     </div>
@@ -78,39 +78,49 @@
     </div>
   </main>
 
-  <!-- Chart.js CDN -->
+  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <!-- Demo Script: replace fetch URL with your Flask endpoint -->
+
   <script>
-    async function fetchStats() {
-      // Example: fetch('/api/v1/stats/daily') in production
-      // Mocked data for illustration
-      const resp = await fetch('https://raw.githubusercontent.com/plotly/datasets/master/2014_apple_stock.csv');
-      // replace with real JSON later
-      const demoData = Array.from({length: 30}, (_, i) => ({day: `Day ${i+1}`, kWh: Math.random()*5+2}));
-      return demoData;
+    // --- Fetch summary stats and fill KPI cards --------------------
+    async function updateSummary() {
+      try {
+        const resp = await fetch('/api/v1/stats/summary');
+        const s = await resp.json();
+        document.getElementById('todayEnergy').textContent = s.today_kwh.toFixed(2);
+        document.getElementById('todayCost').textContent = s.cost_today.toFixed(2);
+        document.getElementById('monthEnergy').textContent = s.usage_30d.toFixed(2);
+        document.getElementById('totalEnergy').textContent = s.total_energy.toFixed(2);
+      } catch (e) {
+        console.error('Summary fetch error', e);
+      }
     }
 
-    function fillKPIs(data) {
-      const totalToday = data[data.length-1]?.kWh.toFixed(2);
-      const costPerKWh = 0.12; // \$/kWh – change as needed
-      document.getElementById('todayEnergy').textContent = totalToday;
-      document.getElementById('todayCost').textContent = (totalToday * costPerKWh).toFixed(2);
-      const monthTotal = data.reduce((a,b)=>a+b.kWh,0).toFixed(2);
-      document.getElementById('monthEnergy').textContent = monthTotal;
-      const peak = Math.max(...data.map(d=>d.kWh)).toFixed(2);
-      document.getElementById('peakDay').textContent = peak;
+    // --- Fetch daily series for chart ------------------------------
+    async function updateChart() {
+      try {
+        const resp = await fetch('/api/v1/stats/daily'); // implement this route later
+        const data = await resp.json();
+        renderChart(data);
+      } catch (e) {
+        console.error('Daily stats fetch error', e);
+      }
     }
 
+    // --- Render line chart ----------------------------------------
+    let chart;
     function renderChart(data) {
       const ctx = document.getElementById('energyChart');
-      new Chart(ctx, {
+      const labels = data.map(d => d.day);
+      const values = data.map(d => d.kWh);
+      if (chart) chart.destroy();
+      chart = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: data.map(d=>d.day),
+          labels,
           datasets: [{
             label: 'kWh per Day',
-            data: data.map(d=>d.kWh),
+            data: values,
             fill: true,
             tension: 0.3,
             pointRadius: 2,
@@ -120,24 +130,18 @@
         options: {
           maintainAspectRatio: false,
           scales: {
-            y: {
-              title:{display:true, text:'kWh'},
-              beginAtZero: true
-            }
+            y: { beginAtZero: true, title: { display: true, text: 'kWh' } }
           },
-          plugins:{
-            legend:{display:false},
-            tooltip:{callbacks:{label:(ctx)=>ctx.parsed.y.toFixed(2)+' kWh'}}
-          }
+          plugins: { legend: { display: false } }
         }
       });
     }
 
-    (async ()=>{
-      const data = await fetchStats();
-      fillKPIs(data);
-      renderChart(data);
-    })();
+    // --- Kick things off & auto-refresh ---------------------------
+    updateSummary();
+    updateChart();
+    setInterval(updateSummary, 15000);   // refresh KPI every 15s
+    setInterval(updateChart, 60000);     // refresh chart every minute
   </script>
 </body>
 </html>
