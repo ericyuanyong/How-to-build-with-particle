@@ -142,4 +142,4 @@ if __name__ == "__main__":
     listener_thread.start()
 
     # Run Flask app
-    app.run(debug=True, use_reloader=False, host="0.0.0.0")
+    app.run(debug=True, use_reloader=False, host="0.0.0.0",port=5050)
