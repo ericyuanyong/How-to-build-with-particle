@@ -2,3 +2,4 @@
 Flask_SQLAlchemy==3.1.1
 requests==2.31.0
 sseclient==0.0.27
+python-dotenv==1.0.1

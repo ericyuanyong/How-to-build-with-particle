@@ -7,6 +7,8 @@ import sseclient
 from flask import Flask, render_template, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func
+from dotenv import load_dotenv
+import os 
 
 # ────────────────────────────────────────────────────────────────
 # Flask & DB setup
@@ -30,8 +32,9 @@ with app.app_context():
 # ────────────────────────────────────────────────────────────────
 # Particle credentials & config
 # ────────────────────────────────────────────────────────────────
-PARTICLE_DEVICE_ID = "0a10aced202194944a04b1a0"
-PARTICLE_TOKEN = "ee88804db6c92ced674dc76a81df670f597141d6"
+
+PARTICLE_DEVICE_ID = os.getenv("PARTICLE_DEVICE_ID")
+PARTICLE_TOKEN = os.getenv("PARTICLE_TOKEN")
 EVENT_NAME = "energy_hourly"  # the Particle event name your device publishes
 COST_PER_KWH = 0.12
 
