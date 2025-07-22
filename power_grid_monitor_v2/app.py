@@ -64,7 +64,7 @@ def listen_particle_events():
                             energy_kwh = energy_wh / 1000.0
                             published_at = data_json.get("published_at")
 
-                            print(f"Received event energy_hourly: {energy_kwh:.2f} kWh at {published_at}")
+                            print(f"Received event energy_hourly: {energy_kwh:.4f} kWh at {published_at}")
 
                             timestamp = datetime.datetime.utcnow()
                             with app.app_context():
@@ -81,41 +81,6 @@ def listen_particle_events():
     except Exception as e:
         print("Particle event stream connection error:", e)
 
-'''
-def listen_particle_events():
-    url = f"https://api.particle.io/v1/devices/events/{EVENT_NAME}?access_token={PARTICLE_TOKEN}"
-    print("Starting Particle event listener...")
-    try:
-        with requests.get(url, stream=True) as response:
-            client = sseclient.SSEClient(response)
-            for event in client.events():
-                if event.event == EVENT_NAME:            
-                    try:
-                        first_layer = json.loads(event.data)
-                        print(f"First parsed layer: {first_layer}")
-                        
-                        payload = json.loads(first_layer['data'])  # Inner JSON string
-                        print(f"Parsed payload: {payload}")
-                        
-                        energy_wh = float(payload.get("energy_wh", 0))
-                        energy_kwh = energy_wh / 1000.0
-
-                        timestamp = datetime.datetime.utcnow()
-                        with app.app_context():
-                            reading = Reading(timestamp=timestamp, energy_kwh=energy_kwh)
-                            db.session.add(reading)
-                            db.session.commit()
-
-                        print(f"Received event {event.event}: {energy_kwh} kWh at {timestamp}")
-
-                    except Exception as e:
-                        print(f"Error parsing event data: {e}")
-
-
-    except Exception as e:
-        print(f"Particle event stream connection error: {e}")
-
-'''
 # ────────────────────────────────────────────────────────────────
 # API endpoints
 # ────────────────────────────────────────────────────────────────
