@@ -42,48 +42,50 @@ COST_PER_KWH = 0.12
 # ────────────────────────────────────────────────────────────────
 # Particle event stream listener
 # ────────────────────────────────────────────────────────────────
-
-
 def listen_particle_events():
     print("Starting Particle event listener...")
 
     url = f"https://api.particle.io/v1/devices/events/energy_hourly?access_token={PARTICLE_TOKEN}"
     
-    try:
-        with requests.get(url, stream=True) as response:
-            if response.status_code != 200:
-                print(f"Failed to connect: {response.status_code}")
-                return
+    while True:
+        try:
+            with requests.get(url, stream=True, timeout=30) as response:  # Added timeout
+                if response.status_code != 200:
+                    print(f"Failed to connect: {response.status_code}")
+                    time.sleep(5)  # Sleep for a while before retrying
+                    continue  # Retry the connection
 
-            for line in response.iter_lines():
-                if line:
-                    decoded_line = line.decode("utf-8")
-                    if decoded_line.startswith("data:"):
-                        event_data = decoded_line[5:].strip()
-                        try:
-                            data_json = json.loads(event_data)
-                            raw_data = data_json.get("data", "{}")
-                            parsed_data = json.loads(raw_data)
-                            energy_wh = float(parsed_data.get("energy_wh", 0))
-                            energy_kwh = energy_wh / 1000.0
-                            published_at = data_json.get("published_at")
+                for line in response.iter_lines():
+                    if line:
+                        decoded_line = line.decode("utf-8")
+                        if decoded_line.startswith("data:"):
+                            event_data = decoded_line[5:].strip()
+                            try:
+                                data_json = json.loads(event_data)
+                                raw_data = data_json.get("data", "{}")
+                                parsed_data = json.loads(raw_data)
+                                energy_wh = float(parsed_data.get("energy_wh", 0))
+                                energy_kwh = energy_wh / 1000.0
+                                published_at = data_json.get("published_at")
 
-                            print(f"Received event energy_hourly: {energy_kwh:.4f} kWh at {published_at}")
+                                print(f"Received event energy_hourly: {energy_kwh:.4f} kWh at {published_at}")
 
-                            timestamp = datetime.datetime.utcnow()
-                            with app.app_context():
-                                reading = Reading(timestamp=timestamp, energy_kwh=energy_kwh)
-                                db.session.add(reading)
-                                db.session.commit()
+                                timestamp = datetime.datetime.utcnow()
+                                with app.app_context():
+                                    reading = Reading(timestamp=timestamp, energy_kwh=energy_kwh)
+                                    db.session.add(reading)
+                                    db.session.commit()
 
-                            #print(f"Received event {event.event}: {energy_kwh} kWh at {timestamp}")
+                            except Exception as e:
+                                print("Error parsing event data:", e)
+                                print("event data was:", event_data)
 
-                        except Exception as e:
-                            print("Error parsing event data:", e)
-                            print("event data was:", event_data)
-
-    except Exception as e:
-        print("Particle event stream connection error:", e)
+        except requests.exceptions.Timeout:
+            print("Timeout error. Retrying...")
+            time.sleep(5)  # Wait before retrying
+        except requests.exceptions.RequestException as e:
+            print(f"Error with request: {e}")
+            time.sleep(5)  # Wait before retrying
 
 # ────────────────────────────────────────────────────────────────
 # API endpoints
