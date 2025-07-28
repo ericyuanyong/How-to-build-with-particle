@@ -32,9 +32,10 @@ with app.app_context():
 # ────────────────────────────────────────────────────────────────
 # Particle credentials & config
 # ────────────────────────────────────────────────────────────────
-
+load_dotenv("config.env")
 PARTICLE_DEVICE_ID = os.getenv("PARTICLE_DEVICE_ID")
 PARTICLE_TOKEN = os.getenv("PARTICLE_TOKEN")
+
 EVENT_NAME = "energy_hourly"  # the Particle event name your device publishes
 COST_PER_KWH = 0.12
 
