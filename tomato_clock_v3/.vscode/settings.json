@@ -1,0 +1,19 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "files.associations": {
+        "*.ino": "cpp",
+        "__hash_table": "cpp",
+        "initializer_list": "cpp",
+        "iterator": "cpp",
+        "unordered_map": "cpp",
+        "algorithm": "cpp",
+        "bitset": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "ostream": "cpp"
+    },
+    "particle.firmwareVersion": "6.3.4",
+    "particle.targetPlatform": "p2"
+}
